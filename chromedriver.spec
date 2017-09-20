@@ -1,5 +1,5 @@
 Name:           chromedriver
-Version:        2.30
+Version:        2.24
 Release:        1%{?dist}
 Summary:        Chrome driver
 
@@ -37,6 +37,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Sep 20 2017 Khoa Le <khoa.le@gooddata.com> - 2.29
+- QA-6743 Add Chrome Driver v2.29
+
 * Wed Sep 06 2017 Anh Nguyen <anh.nguyen@gooddata.com> - 2.30
 - QA-6635 Add Chrome Driver v2.30
 
